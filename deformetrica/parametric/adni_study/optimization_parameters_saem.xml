@@ -1,0 +1,18 @@
+<optimization-parameters deformetrica-min-version="3.0.0">
+
+    <optimization-method-type>McmcSaem</optimization-method-type>
+
+    <convergence-tolerance>1e-5</convergence-tolerance>
+
+    <onset-age-proposal-std>2.</onset-age-proposal-std>
+    <log-acceleration-proposal-std>0.2</log-acceleration-proposal-std>
+    <sources-proposal-std>1</sources-proposal-std>
+
+    <initialization-heuristic>Off</initialization-heuristic>
+    <initial-step-size>1e-3</initial-step-size>
+    <max-iterations>100</max-iterations>
+    <save-every-n-iters>1</save-every-n-iters>
+    <scale-initial-step-size>On</scale-initial-step-size>
+    <sample-every-n-mcmc-iters>1</sample-every-n-mcmc-iters>
+
+</optimization-parameters>

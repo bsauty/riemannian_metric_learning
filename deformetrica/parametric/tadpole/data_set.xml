@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<data-set deformetrica-min-version="3.0.0">
+    <labels-file>tadpole/data/labels.txt</labels-file>
+    <group-file>tadpole/data/group.csv</group-file>
+    <observations-file>tadpole/data/Y.csv</observations-file>
+    <timepoints-file>tadpole/data/X.csv</timepoints-file>
+</data-set>

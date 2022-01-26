@@ -1,0 +1,15 @@
+2021-05-31 10:19:28,542 - root - ERROR - Logger has been set to: INFO
+2021-05-31 10:19:29,033 - __main__ - INFO -  >>> Performing gradient descent.
+2021-05-31 10:19:29,033 - __main__ - INFO - 
+2021-05-31 10:19:29,033 - __main__ - INFO - [ estimate_longitudinal_metric_model function ]
+2021-05-31 10:19:29,543 - __main__ - INFO - Setting initial onset ages from mds_study/preprocessing_mds/2_gradient_descent_on_the_mode/LongitudinalMetricModel_onset_ages.txt file
+2021-05-31 10:19:29,546 - __main__ - INFO - Setting initial log accelerations from mds_study/preprocessing_mds/2_gradient_descent_on_the_mode/LongitudinalMetricModel_log_accelerations.txt file
+2021-05-31 10:19:29,549 - __main__ - INFO - Initializing exponential type to parametric
+2021-05-31 10:19:29,550 - __main__ - INFO - Loading metric parameters from file mds_study/output/LongitudinalMetricModel_metric_parameters.txt
+2021-05-31 10:19:29,551 - __main__ - INFO - Loading the interpolation points from file mds_study/output/LongitudinalMetricModel_interpolation_points.txt
+2021-05-31 10:19:29,553 - __main__ - INFO - The width for the metric interpolation is set to 0.3
+2021-05-31 10:19:29,553 - __main__ - INFO - I am setting the no_parallel_transport flag to False.
+2021-05-31 10:19:29,554 - __main__ - INFO - >> Reading 1-source initial modulation matrix from file: mds_study/preprocessing_mds/2_gradient_descent_on_the_mode/LongitudinalMetricModel_modulation_matrix.txt
+2021-05-31 10:19:29,554 - __main__ - INFO - Setting initial sources from mds_study/preprocessing_mds/2_gradient_descent_on_the_mode/LongitudinalMetricModel_sources.txt file
+2021-05-31 10:19:29,558 - deformetrica.core.models.longitudinal_metric_learning - INFO - Acceleration factors max/min: (3.7646356, 173, 0.20161548, 76)
+2021-05-31 10:19:30,343 - deformetrica.core.models.longitudinal_metric_learning - INFO - Tmin 40 Tmax 110 Update of the spatiotemporalframe: 768 ms

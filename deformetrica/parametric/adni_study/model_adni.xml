@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<data-set deformetrica-min-version="3.0.0">
+	<model-type>LongitudinalMetricLearning</model-type>
+	<dimension>3</dimension>
+	<initial-time-shift-std>9.337</initial-time-shift-std>
+	<initial-log-acceleration-std>0.437</initial-log-acceleration-std>
+	<deformation-parameters>
+		<exponential-type>parametric</exponential-type>
+		<interpolation-points-file>adni_study/output_adas_3f/LongitudinalMetricModel_interpolation_points.txt</interpolation-points-file>
+		<kernel-width>0.2</kernel-width>
+		<concentration-of-timepoints>8</concentration-of-timepoints>
+		<number-of-timepoints>10</number-of-timepoints>
+		<metric-parameters-file>adni_study/output_adas_3f/LongitudinalMetricModel_metric_parameters.txt</metric-parameters-file>
+		<number-of-sources>1</number-of-sources>
+		<t0>75.694</t0>
+		<v0>adni_study/output_adas_3f/LongitudinalMetricModel_v0.txt</v0>
+		<p0>adni_study/output_adas_3f/LongitudinalMetricModel_p0.txt</p0>
+	</deformation-parameters>
+	<initial-sources>output_adas_3f/LongitudinalMetricModel_sources.txt</initial-sources>
+	<initial-modulation-matrix>output_adas_3f/LongitudinalMetricModel_modulation_matrix.txt</initial-modulation-matrix>
+	<initial-onset-ages>output_adas_3f/LongitudinalMetricModel_onset_ages.txt</initial-onset-ages>
+	<initial-log-accelerations>output_adas_3f/LongitudinalMetricModel_log_accelerations.txt</initial-log-accelerations>
+</data-set>
+
+
+

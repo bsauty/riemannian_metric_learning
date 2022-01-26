@@ -1,0 +1,23 @@
+2021-08-25 16:22:33,506 - root - ERROR - Logger has been set to: INFO
+2021-08-25 16:22:33,506 - __main__ - INFO - 
+2021-08-25 16:22:33,507 - __main__ - INFO - [ estimate_longitudinal_metric_model function ]
+2021-08-25 16:22:33,891 - __main__ - INFO - Setting initial onset ages from simulated_study/preprocessing_1/2_gradient_descent_on_the_mode/LongitudinalMetricModel_onset_ages.txt file
+2021-08-25 16:22:33,893 - __main__ - INFO - Setting initial log accelerations from simulated_study/preprocessing_1/2_gradient_descent_on_the_mode/LongitudinalMetricModel_log_accelerations.txt file
+2021-08-25 16:22:33,894 - __main__ - INFO - Initializing exponential type to parametric
+2021-08-25 16:22:33,894 - __main__ - INFO - Loading metric parameters from file simulated_study/preprocessing_1/2_gradient_descent_on_the_mode/LongitudinalMetricModel_metric_parameters.txt
+2021-08-25 16:22:33,895 - __main__ - INFO - Loading the interpolation points from file simulated_study/preprocessing_1/2_gradient_descent_on_the_mode/LongitudinalMetricModel_interpolation_points.txt
+2021-08-25 16:22:33,895 - __main__ - INFO - The width for the metric interpolation is set to 0.15
+2021-08-25 16:22:33,896 - __main__ - INFO - I am setting the no_parallel_transport flag to False.
+2021-08-25 16:22:33,896 - __main__ - INFO - >> Reading 1-source initial modulation matrix from file: simulated_study/preprocessing_1/2_gradient_descent_on_the_mode/LongitudinalMetricModel_modulation_matrix.txt
+2021-08-25 16:22:33,896 - __main__ - INFO - Setting initial sources from simulated_study/preprocessing_1/2_gradient_descent_on_the_mode/LongitudinalMetricModel_sources.txt file
+2021-08-25 16:22:49,961 - __main__ - INFO - >> Initial noise variance set to 0.030665354027878493 based on the initial mean residual value.
+2021-08-25 16:22:49,962 - deformetrica.core.models.longitudinal_metric_learning - INFO - >> The time shift variance prior degrees of freedom parameter is set to 300
+2021-08-25 16:22:49,962 - deformetrica.core.models.longitudinal_metric_learning - INFO - >> The log-acceleration variance prior degrees of freedom parameter is set to the number of subjects: 300
+2021-08-25 16:22:49,962 - deformetrica.core.models.longitudinal_metric_learning - INFO - ('v0', False)
+2021-08-25 16:22:49,962 - deformetrica.core.models.longitudinal_metric_learning - INFO - ('p0', False)
+2021-08-25 16:22:49,962 - deformetrica.core.models.longitudinal_metric_learning - INFO - ('reference_time', False)
+2021-08-25 16:22:49,962 - deformetrica.core.models.longitudinal_metric_learning - INFO - ('onset_age_variance', False)
+2021-08-25 16:22:49,963 - deformetrica.core.models.longitudinal_metric_learning - INFO - ('log_acceleration_variance', False)
+2021-08-25 16:22:49,963 - deformetrica.core.models.longitudinal_metric_learning - INFO - ('noise_variance', False)
+2021-08-25 16:22:49,963 - deformetrica.core.models.longitudinal_metric_learning - INFO - ('metric_parameters', False)
+2021-08-25 16:22:49,963 - deformetrica.core.models.longitudinal_metric_learning - INFO - ('modulation_matrix', False)

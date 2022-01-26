@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<data-set deformetrica-min-version="3.0.0">
+    <labels-file>mds_study/mds_data/labels.txt</labels-file>
+    <group-file>mds_study/mds_data/MDS_id.csv</group-file>
+    <observations-file>mds_study/mds_data/MDS_values.csv</observations-file>
+    <timepoints-file>mds_study/mds_data/MDS_times.csv</timepoints-file>
+</data-set>

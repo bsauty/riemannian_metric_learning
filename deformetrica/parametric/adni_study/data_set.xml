@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<data-set deformetrica-min-version="3.0.0">
+    <labels-file>adni_study/data_adni/labels_adas.txt</labels-file>
+    <group-file>adni_study/data_adni/group.csv</group-file>
+    <observations-file>adni_study/data_adni/Y_adas.csv</observations-file>
+    <timepoints-file>adni_study/data_adni/X.csv</timepoints-file>
+</data-set>

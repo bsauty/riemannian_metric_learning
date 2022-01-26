@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<model deformetrica-min-version="3.0.0">
+    <model-type>LongitudinalMetricLearning</model-type>
+    <dimension>2</dimension>
+    <initial-time-shift-std>6.</initial-time-shift-std>
+    <initial-log-acceleration-std>0.5</initial-log-acceleration-std>
+    <initial-noise-std>0.1</initial-noise-std>
+    <deformation-parameters>
+        <exponential-type>parametric</exponential-type>
+        <concentration-of-timepoints>5</concentration-of-timepoints>
+        <exponential-type>parametric</exponential-type>
+        <number-of-sources>1</number-of-sources>
+        <kernel-width>0.25</kernel-width>
+    </deformation-parameters>
+</model>

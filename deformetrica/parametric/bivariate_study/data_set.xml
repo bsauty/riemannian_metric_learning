@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<data-set deformetrica-min-version="3.0.0">
+    <labels-file>bivariate_study/bivariate_data/labels.txt</labels-file>
+    <group-file>bivariate_study/bivariate_data/group.csv</group-file>
+    <observations-file>bivariate_study/bivariate_data/Y.csv</observations-file>
+    <timepoints-file>bivariate_study/bivariate_data/X.csv</timepoints-file>
+</data-set>

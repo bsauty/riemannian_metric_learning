@@ -1,0 +1,45 @@
+2021-08-25 16:16:40,101 - root - ERROR - Logger has been set to: INFO
+2021-08-25 16:16:40,102 - __main__ - INFO - 
+2021-08-25 16:16:40,102 - __main__ - INFO - [ estimate_longitudinal_metric_model function ]
+2021-08-25 16:16:40,485 - __main__ - INFO - Setting initial onset ages from simulated_study/preprocessing_1/2_gradient_descent_on_the_mode/LongitudinalMetricModel_onset_ages.txt file
+2021-08-25 16:16:40,487 - __main__ - INFO - Setting initial log accelerations from simulated_study/preprocessing_1/2_gradient_descent_on_the_mode/LongitudinalMetricModel_log_accelerations.txt file
+2021-08-25 16:16:40,488 - __main__ - INFO - Initializing exponential type to parametric
+2021-08-25 16:16:40,488 - __main__ - INFO - Loading metric parameters from file simulated_study/preprocessing_1/2_gradient_descent_on_the_mode/LongitudinalMetricModel_metric_parameters.txt
+2021-08-25 16:16:40,489 - __main__ - INFO - Loading the interpolation points from file simulated_study/preprocessing_1/2_gradient_descent_on_the_mode/LongitudinalMetricModel_interpolation_points.txt
+2021-08-25 16:16:40,489 - __main__ - INFO - The width for the metric interpolation is set to 0.15
+2021-08-25 16:16:40,490 - __main__ - INFO - I am setting the no_parallel_transport flag to False.
+2021-08-25 16:16:40,490 - __main__ - INFO - >> Reading 1-source initial modulation matrix from file: simulated_study/preprocessing_1/2_gradient_descent_on_the_mode/LongitudinalMetricModel_modulation_matrix.txt
+2021-08-25 16:16:40,490 - __main__ - INFO - Setting initial sources from simulated_study/preprocessing_1/2_gradient_descent_on_the_mode/LongitudinalMetricModel_sources.txt file
+2021-08-25 16:16:55,206 - __main__ - INFO - >> Initial noise variance set to 0.030665354027878493 based on the initial mean residual value.
+2021-08-25 16:16:55,207 - deformetrica.core.models.longitudinal_metric_learning - INFO - >> The time shift variance prior degrees of freedom parameter is set to 300
+2021-08-25 16:16:55,207 - deformetrica.core.models.longitudinal_metric_learning - INFO - >> The log-acceleration variance prior degrees of freedom parameter is set to the number of subjects: 300
+2021-08-25 16:16:55,207 - deformetrica.core.models.longitudinal_metric_learning - INFO - ('v0', False)
+2021-08-25 16:16:55,207 - deformetrica.core.models.longitudinal_metric_learning - INFO - ('p0', False)
+2021-08-25 16:16:55,207 - deformetrica.core.models.longitudinal_metric_learning - INFO - ('reference_time', False)
+2021-08-25 16:16:55,208 - deformetrica.core.models.longitudinal_metric_learning - INFO - ('onset_age_variance', False)
+2021-08-25 16:16:55,208 - deformetrica.core.models.longitudinal_metric_learning - INFO - ('log_acceleration_variance', False)
+2021-08-25 16:16:55,208 - deformetrica.core.models.longitudinal_metric_learning - INFO - ('noise_variance', False)
+2021-08-25 16:16:55,208 - deformetrica.core.models.longitudinal_metric_learning - INFO - ('metric_parameters', False)
+2021-08-25 16:16:55,208 - deformetrica.core.models.longitudinal_metric_learning - INFO - ('modulation_matrix', False)
+2021-08-25 16:17:09,571 - __main__ - INFO - 
+2021-08-25 16:17:09,572 - __main__ - INFO - [ update method of the McmcSaem  optimizer ]
+2021-08-25 16:17:09,572 - deformetrica.core.estimators.mcmc_saem - INFO - ---------------------------------- MCMC Iteration: 0 -------------------------------------
+2021-08-25 16:17:09,572 - deformetrica.core.estimators.mcmc_saem - INFO - >> MCMC-SAEM algorithm launched for 50 iterations (25  iterations of burn-in).
+2021-08-25 16:17:09,572 - deformetrica.core.models.longitudinal_metric_learning - INFO - >> Model parameters:
+2021-08-25 16:17:09,572 - deformetrica.core.models.longitudinal_metric_learning - INFO - 		 noise_variance    =	0.1238
+2021-08-25 16:17:09,572 - deformetrica.core.models.longitudinal_metric_learning - INFO - 		 onset_ages        =	71.291	[ mean ]	+/-	16.4490	[std]
+2021-08-25 16:17:09,572 - deformetrica.core.models.longitudinal_metric_learning - INFO - 		 log_accelerations =	0.0016	[ mean ]	+/-	0.4942	[std]
+2021-08-25 16:17:09,573 - deformetrica.core.models.longitudinal_metric_learning - INFO - 		 sources           =	0.0001	[ mean ]	+/-	0.9977	[std]
+2021-08-25 16:18:07,750 - deformetrica.core.estimator_tools.samplers.srw_mhwg_sampler - INFO - >> Proposal std re-evaluated from:
+		 6.000 	to	7.098 	[ onset_age ]
+		 0.050 	to	0.082 	[ log_acceleration ]
+		 1.000 	to	1.032 	[ sources ]
+2021-08-25 16:18:22,165 - deformetrica.core.estimators.mcmc_saem - INFO - 
+2021-08-25 16:18:22,166 - deformetrica.core.estimators.mcmc_saem - INFO - [ maximizing over the fixed effects with the GradientAscent optimizer ]
+2021-08-25 16:19:22,462 - deformetrica.core.estimators.gradient_ascent - INFO - --------------------------------- GA Iteration: 0/2 -----------------------------------
+2021-08-25 16:19:22,530 - deformetrica.core.estimators.gradient_ascent - INFO - >> Log-likelihood = -2.831E+03 	 [ attachment = -2.400E+03 ; regularity = -4.318E+02 ]
+2021-08-25 16:19:22,530 - deformetrica.core.estimators.gradient_ascent - INFO - >> Step size and gradient norm: 
+2021-08-25 16:19:22,531 - deformetrica.core.estimators.gradient_ascent - INFO - 		NAN   and   NAN 	[ v0 ]
+2021-08-25 16:19:22,531 - deformetrica.core.estimators.gradient_ascent - INFO - 		NAN   and   NAN 	[ p0 ]
+2021-08-25 16:19:22,531 - deformetrica.core.estimators.gradient_ascent - INFO - 		NAN   and   NAN 	[ metric_parameters ]
+2021-08-25 16:19:22,531 - deformetrica.core.estimators.gradient_ascent - INFO - 		NAN   and   NAN 	[ modulation_matrix ]
