@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<data-set deformetrica-min-version="3.0.0">
-    <labels-file>simulated_study/simulated_data_5/labels.txt</labels-file>
-    <group-file>simulated_study/simulated_data_5/group.csv</group-file>
-    <observations-file>simulated_study/simulated_data_5/Y_pruned.csv</observations-file>
-    <timepoints-file>simulated_study/simulated_data_5/X.csv</timepoints-file>
-</data-set>
