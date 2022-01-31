@@ -1,4 +1,4 @@
-name: deformetrica
+name: riemannian_metric_learning
 dependencies:
   - python=3.7
   - pip
