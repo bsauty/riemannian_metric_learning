@@ -149,20 +149,12 @@ def _smart_initialization(dataset, number_of_sources, observation_type):
 
 if __name__ == '__main__':
 
-    #TODO : remove this after debugging
-    #assert len(sys.argv) == 4, 'Usage: ' + sys.argv[0] + " <model.xml> <data_set.xml> <optimization_parameters.xml> "
+    assert len(sys.argv) == 5, 'Usage: ' + sys.argv[0] + " <model.xml> <data_set.xml> <optimization_parameters.xml> <output_folder>"
 
-    #model_xml_path = sys.argv[1]
-    #dataset_xml_path = sys.argv[2]
-    #optimization_parameters_xml_path = sys.argv[3]
-
-    study = 'tadpole/'
-
-    model_xml_path = study + 'model.xml'
-    dataset_xml_path = study + 'data_set.xml'
-    optimization_parameters_xml_path = study + 'optimization_parameters_saem.xml'
-
-    preprocessings_folder = 'preprocessing'
+    model_xml_path = sys.argv[1]
+    dataset_xml_path = sys.argv[2]
+    optimization_parameters_xml_path = sys.argv[3]
+    preprocessings_folder = sys.argv[4]
 
     if not os.path.isdir(preprocessings_folder):
         os.mkdir(preprocessings_folder)
@@ -337,6 +329,6 @@ if __name__ == '__main__':
     initial_log_accelerations.text = os.path.join(mode_descent_output_path,
                                                   "LongitudinalMetricModel_log_accelerations.txt")
 
-    model_xml_path = study + 'model_after_initialization.xml'
+    model_xml_path = preprocessings_folder + 'model_after_initialization.xml'
     doc = parseString((et.tostring(model_xml).decode('utf-8').replace('\n', '').replace('\t', ''))).toprettyxml()
     np.savetxt(model_xml_path, [doc], fmt='%s')
